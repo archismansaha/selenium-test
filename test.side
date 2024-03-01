@@ -1,0 +1,42 @@
+{
+  "id": "5bbefc37-abb2-44e5-a63e-fcd0ad044b88",
+  "version": "2.0",
+  "name": "test first",
+  "url": "http://localhost:434",
+  "tests": [{
+    "id": "8998a72f-3b72-404f-b073-0b9a53df57db",
+    "name": "Untitled",
+    "commands": [{
+      "id": "1a7fb998-135b-4cd5-892b-59c349d53d39",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.federalregister.gov/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34569e98-2849-4708-ab82-86697f1c6549",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class='popular-document-title'][1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b32e998-7d4b-4d2c-a121-3588f57a1321",
+      "comment": "",
+      "command": "click",
+      "target": "//dl[@class=\"metadata_list\"]/*/a[1]",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3fef8999-070c-4978-bf69-a3ec9b8d3da6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8998a72f-3b72-404f-b073-0b9a53df57db"]
+  }],
+  "urls": ["http://localhost:434/"],
+  "plugins": []
+}
